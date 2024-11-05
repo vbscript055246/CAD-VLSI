@@ -1,0 +1,5 @@
+|STLCA
+sensor => n_state.green.DATAB
+sensor => Selector0.IN2
+
+
