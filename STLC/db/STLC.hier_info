@@ -1,0 +1,13 @@
+|STLC
+S1 => n_state.0101.DATAB
+S1 => Selector0.IN2
+S2 => n_state.1011.DATAB
+S2 => Selector1.IN2
+light1[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+light1[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+light1[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+light2[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+light2[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+light2[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+
+
