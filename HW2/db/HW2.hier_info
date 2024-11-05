@@ -1,0 +1,87 @@
+|HW2S
+clk => D_FF_B4I4O:D_FF_generate:3:tmp_comp.clk
+clk => D_FF_B4I4O:D_FF_generate:2:tmp_comp.clk
+clk => D_FF_B4I4O:D_FF_generate:1:tmp_comp.clk
+clk => D_FF_B4I4O:D_FF_generate:0:tmp_comp.clk
+Din[0] => D_FF_B4I4O:D_FF_generate:0:tmp_comp.Din[0]
+Din[1] => D_FF_B4I4O:D_FF_generate:0:tmp_comp.Din[1]
+Din[2] => D_FF_B4I4O:D_FF_generate:0:tmp_comp.Din[2]
+Din[3] => D_FF_B4I4O:D_FF_generate:0:tmp_comp.Din[3]
+A[0] <= D_FF_B4I4O:D_FF_generate:3:tmp_comp.Dout[0]
+A[1] <= D_FF_B4I4O:D_FF_generate:3:tmp_comp.Dout[1]
+A[2] <= D_FF_B4I4O:D_FF_generate:3:tmp_comp.Dout[2]
+A[3] <= D_FF_B4I4O:D_FF_generate:3:tmp_comp.Dout[3]
+B[0] <= D_FF_B4I4O:D_FF_generate:2:tmp_comp.Dout[0]
+B[1] <= D_FF_B4I4O:D_FF_generate:2:tmp_comp.Dout[1]
+B[2] <= D_FF_B4I4O:D_FF_generate:2:tmp_comp.Dout[2]
+B[3] <= D_FF_B4I4O:D_FF_generate:2:tmp_comp.Dout[3]
+C[0] <= D_FF_B4I4O:D_FF_generate:1:tmp_comp.Dout[0]
+C[1] <= D_FF_B4I4O:D_FF_generate:1:tmp_comp.Dout[1]
+C[2] <= D_FF_B4I4O:D_FF_generate:1:tmp_comp.Dout[2]
+C[3] <= D_FF_B4I4O:D_FF_generate:1:tmp_comp.Dout[3]
+D[0] <= D_FF_B4I4O:D_FF_generate:0:tmp_comp.Dout[0]
+D[1] <= D_FF_B4I4O:D_FF_generate:0:tmp_comp.Dout[1]
+D[2] <= D_FF_B4I4O:D_FF_generate:0:tmp_comp.Dout[2]
+D[3] <= D_FF_B4I4O:D_FF_generate:0:tmp_comp.Dout[3]
+
+
+|HW2S|D_FF_B4I4O:\D_FF_generate:0:tmp_comp
+clk => Q[3].CLK
+clk => Q[2].CLK
+clk => Q[1].CLK
+clk => Q[0].CLK
+Din[0] => Q[0].DATAIN
+Din[1] => Q[1].DATAIN
+Din[2] => Q[2].DATAIN
+Din[3] => Q[3].DATAIN
+Dout[0] <= Q[0].DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] <= Q[1].DB_MAX_OUTPUT_PORT_TYPE
+Dout[2] <= Q[2].DB_MAX_OUTPUT_PORT_TYPE
+Dout[3] <= Q[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HW2S|D_FF_B4I4O:\D_FF_generate:1:tmp_comp
+clk => Q[3].CLK
+clk => Q[2].CLK
+clk => Q[1].CLK
+clk => Q[0].CLK
+Din[0] => Q[0].DATAIN
+Din[1] => Q[1].DATAIN
+Din[2] => Q[2].DATAIN
+Din[3] => Q[3].DATAIN
+Dout[0] <= Q[0].DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] <= Q[1].DB_MAX_OUTPUT_PORT_TYPE
+Dout[2] <= Q[2].DB_MAX_OUTPUT_PORT_TYPE
+Dout[3] <= Q[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HW2S|D_FF_B4I4O:\D_FF_generate:2:tmp_comp
+clk => Q[3].CLK
+clk => Q[2].CLK
+clk => Q[1].CLK
+clk => Q[0].CLK
+Din[0] => Q[0].DATAIN
+Din[1] => Q[1].DATAIN
+Din[2] => Q[2].DATAIN
+Din[3] => Q[3].DATAIN
+Dout[0] <= Q[0].DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] <= Q[1].DB_MAX_OUTPUT_PORT_TYPE
+Dout[2] <= Q[2].DB_MAX_OUTPUT_PORT_TYPE
+Dout[3] <= Q[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|HW2S|D_FF_B4I4O:\D_FF_generate:3:tmp_comp
+clk => Q[3].CLK
+clk => Q[2].CLK
+clk => Q[1].CLK
+clk => Q[0].CLK
+Din[0] => Q[0].DATAIN
+Din[1] => Q[1].DATAIN
+Din[2] => Q[2].DATAIN
+Din[3] => Q[3].DATAIN
+Dout[0] <= Q[0].DB_MAX_OUTPUT_PORT_TYPE
+Dout[1] <= Q[1].DB_MAX_OUTPUT_PORT_TYPE
+Dout[2] <= Q[2].DB_MAX_OUTPUT_PORT_TYPE
+Dout[3] <= Q[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
